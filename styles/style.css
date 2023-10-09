@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 20px;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.logo{
+font-size: 20px;
+font-family: inter;
+font-weight: 600;
+color: #000000;
+/* padding: 20px; */
+}
+
+.tuggle{
+    /* padding: 10px; */
+}
+.image{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+div h1{
+    font-size: 36px;
+    font-family: open sans;
+    font-weight: 600;
+    color: #264852;
+    /* padding: 0px 10px; */
+}
+div p{
+    font-size: 15px;
+    font-family: open sans;
+    font-weight: 400;
+    color: #868686;
+    line-height: 20px;
+    /* padding: 0px 10px; */
+}
+
+.button{
+    margin-top: 20px;
+    text-align: center;
+    background-color: #043931;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: open sans;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 10px;
+}
+.adam{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.details{
+    padding: 10px;
+}
+.details h4{
+    font-size: 18px;
+    font-family: open sans;
+    font-weight: 600;
+    color: #000000;
+}
+.details .first-p{
+    color: #FF7A00;
+    font-size: 10px;
+    font-family: open sans;
+    font-weight: 600;
+}
+.details .second{
+    font-size: 10px;
+    font-family: open sans;
+    font-weight: 600;
+    color: #868686;
+}
+.socialhandle{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 15px;
+    margin-bottom: 30px;
+}
+.instagram p{
+    background-color: #FF7A00;
+    color:#FFFFFF;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 12px;
+    font-family: open sans;
+    font-weight: 600;
+}
+.twitter p{
+    background-color: #1EBDE0;
+    color:#FFFFFF;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 12px;
+    font-family: open sans;
+    font-weight: 600;
+}
+
